@@ -49,4 +49,4 @@ jobs:
           fi
 
           echo "Publishing with tag: $TAG"
-          mise run --provenance --access public --tag "$TAG"
+          mise run publish --tag "$TAG"
