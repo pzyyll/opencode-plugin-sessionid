@@ -1,9 +1,9 @@
 import type { Plugin } from '@opencode-ai/plugin';
 
-export const SessionIdPlugin: Plugin = async ({ project, client, $, directory, worktree }) => {
+export const SessionIdPlugin: Plugin = async () => {
   return {
-    "chat.headers": async (input , output) => {
-        output.headers["X-Session-ID"] = input.sessionID;
-    }
+    'chat.headers': async (input, output) => {
+      output.headers['X-Session-ID'] = input.sessionID;
+    },
   };
 };
