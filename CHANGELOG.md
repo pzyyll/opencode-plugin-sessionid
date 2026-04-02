@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.1](https://github.com/pzyyll/opencode-plugin-sessionid/compare/v1.0.0...v1.0.1) (2026-04-02)
+
+
+### Bug Fixes
+
+* **ci:** make mise tasks executable for publish workflow ([eb76c66](https://github.com/pzyyll/opencode-plugin-sessionid/commit/eb76c66a024d2a5bb542818323ea5f1f2d099caa))
+* update publish command to include provenance and access options ([6463a7c](https://github.com/pzyyll/opencode-plugin-sessionid/commit/6463a7c18e8bf7af2eed932f95d247ff77c043bb))
+* update publish command to use correct syntax for mise ([44be6e6](https://github.com/pzyyll/opencode-plugin-sessionid/commit/44be6e609db1c1cf71b6009efa1a40ea16febba2))
+
 ## 1.0.0 (2026-04-02)
 
 
