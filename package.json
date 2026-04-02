@@ -1,6 +1,6 @@
 {
   "name": "opencode-plugin-sessionid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add `session id` to headers",
   "author": {
     "name": "Leo Cai",
