@@ -32,6 +32,9 @@ jobs:
           cache: true
           experimental: true
 
+      - name: Ensure mise tasks are executable
+        run: chmod +x .mise/tasks/*
+
       - name: Build
         run: mise run build
 
