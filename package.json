@@ -1,12 +1,13 @@
 {
   "name": "opencode-plugin-sessionid",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Add `session id` to headers",
   "author": {
     "name": "Leo Cai",
     "email": "pzyyll@gmail.com"
   },
   "type": "module",
+  "main": "./dist/index.js",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
